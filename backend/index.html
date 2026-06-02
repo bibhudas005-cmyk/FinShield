@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fraud Check Visualizer</title>
+<style>
+  body { font-family: Arial, sans-serif; margin: 20px; }
+  input, select, button { margin: 5px; padding: 5px; }
+  .node { border: 1px solid #ccc; border-radius: 8px; padding: 10px; margin: 10px 0; }
+  .node h3 { margin: 0 0 5px 0; }
+  .behavioral { background-color: #ffe0e0; }
+  .geo { background-color: #e0f0ff; }
+  .device { background-color: #e0ffe0; }
+  .llm { background-color: #fff0e0; }
+</style>
+</head>
+<body>
+
+<h1>Fraud Check Visualizer</h1>
+
+<div>
+  <label>Transaction ID: <input type="text" id="transactionId" value="TXN-2001"></label><br>
+  <label>Customer ID: <input type="text" id="customerId" value="CUST-1001"></label><br>
+  <label>Amount: <input type="number" id="amount" value="1200"></label><br>
+  <label>Merchant: <input type="text" id="merchant" value="Electronics"></label><br>
+  <label>Location: <input type="text" id="location" value="Nigeria"></label><br>
+  <label>Device ID: <input type="text" id="deviceId" value="DEVICE_1_1"></label><br>
+  <button onclick="checkFraud()">Check Fraud</button>
+</div>
+
+<h2>Results:</h2>
+<div id="results"></div>
+
+<script>
+async function checkFraud() {
+    const txn = {
+        transactionId: document.getElementById('transactionId').value,
+        customerId: document.getElementById('customerId').value,
+        amount: parseFloat(document.getElementById('amount').value),
+        merchant: document.getElementById('merchant').value,
+        location: document.getElementById('location').value,
+        deviceId: document.getElementById('deviceId').value
+    };
+
+    try {
+        const response = await fetch('http://localhost:8000/fraud/check', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(txn)
+        });
+        const data = await response.json();
+        renderResults(data);
+    } catch (err) {
+        console.error(err);
+        alert('Error calling API');
+    }
+}
+
+function renderResults(data) {
+    const container = document.getElementById('results');
+    container.innerHTML = '';
+
+    data.nodes.forEach(node => {
+        const div = document.createElement('div');
+        div.className = 'node';
+        // Agent node coloring
+        if(node.id.includes('behavioral')) div.classList.add('behavioral');
+        else if(node.id.includes('geo')) div.classList.add('geo');
+        else if(node.id.includes('device')) div.classList.add('device');
+        else if(node.id.includes('llm')) {
+            div.classList.add('llm');
+            // Dynamic color based on decision
+            if(node.decision === 'MID_RISK') div.style.backgroundColor = '#ff9999'; // red
+            else if(node.decision === 'LOW_RISK') div.style.backgroundColor = '#fff59d'; // yellow
+            else if(node.decision === 'VERY_LOW_RISK') div.style.backgroundColor = '#b0ffb0'; // green
+        }
+
+        let html = `<h3>${node.name}</h3>`;
+        if(node.risk !== undefined) html += `<p>Risk: ${node.risk}</p>`;
+        if(node.reason !== undefined) html += `<p>Reason: ${node.reason}</p>`;
+        if(node.decision !== undefined) html += `<p>Decision: ${node.decision}</p>`;
+        if(node.action !== undefined) html += `<p>Action: ${node.action}</p>`;
+        if(node.reasoning !== undefined) html += `<p>Reasoning: ${node.reasoning}</p>`;
+        div.innerHTML = html;
+
+        container.appendChild(div);
+    });
+}
+
+</script>
+
+</body>
+</html>
