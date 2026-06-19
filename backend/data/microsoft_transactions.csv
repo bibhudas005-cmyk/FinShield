@@ -1,0 +1,72 @@
+transactionId,customerId,amount,timestamp,localHour,deviceId,deviceType,ipAddress,ipState,ipCountry,isProxyIP,browserType,paymentType,cardType,cvvResult,location,shippingCountry,billingCountry,merchant,transactionType,transactionMethod,digitalItemCount,physicalItemCount,accountCity,accountCountry,accountAge,isRegistered,recentRejects,isFraud
+CBE31B92-8D8D-422D-BF1C-2883222AC68B,A1688853657869890,52.99,2013-04-03 16:30:29,10.0,unknown,Unknown,24.158,tennessee,us,False,Unknown,Unknown,Unknown,M,tennessee,,US,Unknown,P,,1,0,,US,1,FALSE,0,1
+169212AC-3DBA-4EA6-A5AE-031C407DC3AA,A1688853657869890,52.99,2013-04-03 16:39:28,10.0,unknown,Unknown,24.158,tennessee,us,False,Unknown,Unknown,Unknown,M,tennessee,,US,Unknown,P,,1,0,,US,1,FALSE,0,0
+ABE168A6-3636-4202-9389-95E44E65881E,A1688853657869890,52.99,2013-04-03 16:53:56,10.0,unknown,Unknown,24.158,tennessee,us,False,Unknown,Unknown,Unknown,M,tennessee,,US,Unknown,P,,1,0,,US,1,FALSE,0,0
+C4F83897-54F9-4208-987E-DDE9D20F0B4B,A1688853657869890,52.99,2013-04-03 17:06:59,11.0,unknown,Unknown,24.158,tennessee,us,False,Unknown,Unknown,Unknown,M,tennessee,,US,Unknown,P,,1,0,,US,1,FALSE,0,0
+294A76D1-B583-432B-AA49-F32AA4974B94,A1829582519832190,59.99,2013-05-16 13:29:47,8.0,unknown,Unknown,184.2,north carolina,us,False,Unknown,Unknown,Unknown,M,north carolina,,US,Unknown,P,,1,0,,US,1,FALSE,0,1
+0C044F40-9685-4113-882F-D605AAD744BE,A1829582519832190,59.99,2013-05-16 13:31:42,8.0,unknown,Unknown,184.2,north carolina,us,False,Unknown,Unknown,Unknown,M,north carolina,,US,Unknown,P,,1,0,,US,1,FALSE,0,1
+72B7AED1-0944-4DE8-8BEF-74680BBAC3F1,A1829582519832190,59.99,2013-05-16 13:34:28,8.0,unknown,Unknown,184.2,north carolina,us,False,Unknown,Unknown,Unknown,M,north carolina,,US,Unknown,P,,1,0,,US,1,FALSE,0,0
+1901E38A-A427-4BA3-8C82-C9DB2B8C2735,A1829582519832190,59.99,2013-05-17 07:54:30,2.0,unknown,Unknown,71.81,georgia,us,False,Unknown,Unknown,Unknown,M,georgia,,US,Unknown,P,,1,0,,US,1,FALSE,0,1
+EE72DD0F-F132-4E86-9CC5-9FB6386668A0,A1829582580775700,65.57,2013-04-03 18:20:24,11.0,unknown,Unknown,71.223,arizona,us,False,Unknown,Unknown,Unknown,M,arizona,,US,Unknown,P,,1,0,,US,1,FALSE,0,0
+415F4169-0DE1-4D1D-B056-823D02BFEDF6,A1829582580775700,65.57,2013-04-03 18:30:45,11.0,unknown,Unknown,71.223,arizona,us,False,Unknown,Unknown,Unknown,M,arizona,,US,Unknown,P,,1,0,,US,1,FALSE,0,0
+9B5ACCF3-D278-48E9-867E-6027988CEA01,A1829582580775700,65.57,2013-04-03 19:03:33,12.0,unknown,Unknown,71.223,arizona,us,False,Unknown,Unknown,Unknown,M,arizona,,US,Unknown,P,,1,0,,US,1,FALSE,0,0
+8B065D0D-9FBB-4815-B341-DDA432223550,A1829582580775700,65.57,2013-04-03 19:14:25,12.0,unknown,Unknown,71.223,arizona,us,False,Unknown,Unknown,Unknown,M,arizona,,US,Unknown,P,,1,0,,US,1,FALSE,0,0
+C1399C61-74D6-40B3-8289-AC99FAFF4988,A1829582580775700,65.57,2013-04-03 19:15:45,12.0,unknown,Unknown,71.223,arizona,us,False,Unknown,Unknown,Unknown,M,arizona,,US,Unknown,P,,1,0,,US,1,FALSE,0,0
+DE94FF49-79D4-417C-87B2-6682EC4AA382,A1829582580775700,65.57,2013-04-03 19:17:47,12.0,unknown,Unknown,71.223,arizona,us,False,Unknown,Unknown,Unknown,M,arizona,,US,Unknown,P,,1,0,,US,1,FALSE,0,0
+7829E3D8-EAF7-44CE-8AD6-0F11BC182D65,A1829582580775700,65.57,2013-04-03 19:18:40,12.0,unknown,Unknown,71.223,arizona,us,False,Unknown,Unknown,Unknown,M,arizona,,US,Unknown,P,,1,0,,US,1,FALSE,0,1
+B352C087-14C9-4B8A-B239-0C4D861AF091,A1829582580775700,65.57,2013-04-03 19:24:31,12.0,unknown,Unknown,71.223,arizona,us,False,Unknown,Unknown,Unknown,M,arizona,,US,Unknown,P,,1,0,,US,1,FALSE,0,0
+CB9D1331-694E-46E6-8A0A-0C16404FD315,A1829582580775700,65.57,2013-04-03 19:25:26,12.0,unknown,Unknown,71.223,arizona,us,False,Unknown,Unknown,Unknown,M,arizona,,US,Unknown,P,,1,0,,US,1,FALSE,0,0
+76770317-5FD5-4C96-B77B-43BE377FDC6D,A1829582580775700,65.57,2013-04-03 19:27:25,12.0,unknown,Unknown,71.223,arizona,us,False,Unknown,Unknown,Unknown,M,arizona,,US,Unknown,P,,1,0,,US,1,FALSE,0,0
+EB09177A-B225-47E7-B177-E8610B3E618F,A1899946873142120,149.97,2013-04-03 18:34:13,13.0,unknown,Unknown,142.197,florida,us,False,Unknown,Unknown,Unknown,M,florida,,US,Unknown,P,,3,0,,US,1,FALSE,0,1
+B634C814-3ADD-41B5-BBA6-34BD46A8EA65,A1899946873142120,149.97,2013-04-03 18:57:13,13.0,unknown,Unknown,24.94,florida,us,False,Unknown,Unknown,Unknown,M,florida,,US,Unknown,P,,3,0,,US,1,FALSE,0,1
+F70513F4-FCD6-4FB3-9BDA-E1339E4DD86F,A1899946873142120,149.97,2013-04-03 19:03:53,14.0,unknown,Unknown,24.94,florida,us,False,Unknown,Unknown,Unknown,M,florida,,US,Unknown,P,,3,0,,US,1,FALSE,0,1
+92CDB9E5-D34B-415C-B5D5-F4BA4C221855,A1899946873142120,149.97,2013-04-03 19:36:07,14.0,unknown,Unknown,66.176,florida,us,False,Unknown,Unknown,Unknown,M,florida,,US,Unknown,P,,3,0,,US,1,FALSE,0,1
+F1476029-DD3C-4695-924A-0D951E1540CE,A1899946873142120,149.97,2013-04-03 19:41:36,14.0,unknown,Unknown,66.176,florida,us,False,Unknown,Unknown,Unknown,M,florida,,US,Unknown,P,,3,0,,US,1,FALSE,0,1
+F06A587E-F353-481B-9BBA-FFAC28C60777,A1899946873142120,149.97,2013-04-03 20:25:21,15.0,unknown,Unknown,66.176,florida,us,False,Unknown,Unknown,Unknown,M,florida,,US,Unknown,P,,3,0,,US,1,FALSE,0,1
+5AFF55FE-4D1D-4FFA-892D-AB911971CFFE,A1899946873142120,149.97,2013-04-03 20:31:47,15.0,unknown,Unknown,66.176,florida,us,False,Unknown,Unknown,Unknown,M,florida,,US,Unknown,P,,3,0,,US,1,FALSE,0,1
+566C00BC-EB37-41D8-9202-CCAC36616EB0,A844427390246047,5.39,2013-05-21 20:22:37,15.0,unknown,Unknown,72.9,new york,us,False,Unknown,Unknown,Unknown,M,new york,,US,Unknown,P,,1,0,,US,2000,FALSE,0,0
+0EB011D9-CAF2-4A02-8ACF-03895BE44128,A844427390246047,5.39,2013-05-21 20:32:06,15.0,unknown,Unknown,72.9,new york,us,False,Unknown,Unknown,Unknown,M,new york,,US,Unknown,P,,1,0,,US,2000,FALSE,0,0
+2104E85A-B76B-419E-8204-3EAB76C7D122,A844427390246047,5.39,2013-05-24 18:50:03,13.0,unknown,Unknown,72.9,new york,us,False,Unknown,Unknown,Unknown,M,new york,,US,Unknown,P,,1,0,,US,2000,FALSE,0,0
+EA452A8D-BA16-42A9-BC9E-D2A1ECE62675,A844427390246047,5.39,2013-05-24 18:52:51,13.0,unknown,Unknown,72.9,new york,us,False,Unknown,Unknown,Unknown,M,new york,,US,Unknown,P,,1,0,,US,2000,FALSE,0,0
+5EE5C089-EEC1-40F9-B997-D8EA4BDA79C1,A844427390246047,5.39,2013-05-24 18:58:40,13.0,unknown,Unknown,72.9,new york,us,False,Unknown,Unknown,Unknown,M,new york,,US,Unknown,P,,1,0,,US,2000,FALSE,0,0
+D74EFAAF-1FCC-4F41-AB01-317001E86EF1,A844427390246047,5.39,2013-05-24 19:21:15,14.0,unknown,Unknown,72.9,new york,us,False,Unknown,Unknown,Unknown,M,new york,,US,Unknown,P,,1,0,,US,2000,FALSE,0,0
+01CE8E80-F8C6-4EA6-92A5-4D3077CE9449,A844427390246047,5.39,2013-05-24 19:45:05,14.0,unknown,Unknown,72.9,new york,us,False,Unknown,Unknown,Unknown,M,new york,,US,Unknown,P,,1,0,,US,2000,FALSE,0,0
+C00398AE-B078-415C-BB5D-1F29152F4B00,A844427390246047,5.39,2013-05-24 20:05:26,15.0,unknown,Unknown,72.9,new york,us,False,Unknown,Unknown,Unknown,M,new york,,US,Unknown,P,,1,0,,US,2000,FALSE,0,1
+640D2C62-1A20-47FC-9443-79F93E1896C2,A844427390246047,5.39,2013-05-24 20:09:42,15.0,unknown,Unknown,72.9,new york,us,False,Unknown,Unknown,Unknown,M,new york,,US,Unknown,P,,1,0,,US,2000,FALSE,0,1
+156194EC-C71A-4807-B417-BE00180D9FC0,A844427390246047,5.39,2013-05-24 20:17:28,15.0,unknown,Unknown,72.9,new york,us,False,Unknown,Unknown,Unknown,M,new york,,US,Unknown,P,,1,0,,US,2000,FALSE,0,1
+DF0ECDA4-9184-4A60-A227-C9193CD08C63,A844427390246047,5.39,2013-05-24 20:42:15,15.0,unknown,Unknown,72.9,new york,us,False,Unknown,Unknown,Unknown,M,new york,,US,Unknown,P,,1,0,,US,2000,FALSE,0,1
+63C571C9-4D3A-4A6F-84AF-7339ABF5FDDA,A844427390246047,5.39,2013-05-24 20:54:21,15.0,unknown,Unknown,72.9,new york,us,False,Unknown,Unknown,Unknown,M,new york,,US,Unknown,P,,1,0,,US,2000,FALSE,0,1
+0C27D583-960D-4757-B7A9-E207BB91FF38,A844427390246047,5.39,2013-05-24 20:56:03,15.0,unknown,Unknown,72.9,new york,us,False,Unknown,Unknown,Unknown,M,new york,,US,Unknown,P,,1,0,,US,2000,FALSE,0,1
+938457F3-FCC6-463A-A037-89D33413C348,A844427390246047,5.39,2013-05-24 20:59:56,15.0,unknown,Unknown,72.9,new york,us,False,Unknown,Unknown,Unknown,M,new york,,US,Unknown,P,,1,0,,US,2000,FALSE,0,1
+043408BB-F09D-4E53-B3BB-A24E0AD4BDF6,A844427390246047,5.39,2013-05-25 10:56:46,5.0,unknown,Unknown,74.67,new york,us,False,Unknown,Unknown,Unknown,M,new york,,US,Unknown,P,,1,0,,US,2000,FALSE,0,1
+B6B66DCD-8211-47F8-A921-AED2FD47536F,A844427390246047,5.39,2013-05-25 11:57:16,6.0,unknown,Unknown,74.67,new york,us,False,Unknown,Unknown,Unknown,M,new york,,US,Unknown,P,,1,0,,US,2000,FALSE,0,1
+9824B652-A52C-42EA-8BF0-A23D678B9527,A844427390246047,5.39,2013-05-25 11:57:49,6.0,unknown,Unknown,74.67,new york,us,False,Unknown,Unknown,Unknown,M,new york,,US,Unknown,P,,1,0,,US,2000,FALSE,0,1
+59ACE4B3-BD23-4241-B303-4D37EA2DFEE1,A844427390246047,5.39,2013-05-25 11:58:19,6.0,unknown,Unknown,74.67,new york,us,False,Unknown,Unknown,Unknown,M,new york,,US,Unknown,P,,1,0,,US,2000,FALSE,0,1
+2FAF5C96-CEE4-4D17-BEE6-EB27DF5351E7,A844427390246047,5.39,2013-05-25 11:59:41,6.0,unknown,Unknown,74.67,new york,us,False,Unknown,Unknown,Unknown,M,new york,,US,Unknown,P,,1,0,,US,2000,FALSE,0,1
+E720050B-91AD-4ECE-8F88-CA91D6A18E39,A844427390246047,5.39,2013-05-25 12:20:10,7.0,unknown,Unknown,74.67,new york,us,False,Unknown,Unknown,Unknown,M,new york,,US,Unknown,P,,1,0,,US,2000,FALSE,0,1
+0C9B4BE7-CEDB-4B19-9061-855CEC55B0FF,A844427390246047,5.39,2013-05-25 12:27:25,7.0,unknown,Unknown,74.67,new york,us,False,Unknown,Unknown,Unknown,M,new york,,US,Unknown,P,,1,0,,US,2000,FALSE,0,1
+ABA1D7A5-99A8-4416-B120-BD5E39AF612A,A844427390246047,5.39,2013-05-26 02:24:00,21.0,unknown,Unknown,74.67,new york,us,False,Unknown,Unknown,Unknown,M,new york,,US,Unknown,P,,1,0,,US,2000,FALSE,0,1
+4D988189-A1DB-41FE-80CA-E338285D302F,A844427390246047,5.39,2013-05-26 02:25:05,21.0,unknown,Unknown,74.67,new york,us,False,Unknown,Unknown,Unknown,M,new york,,US,Unknown,P,,1,0,,US,2000,FALSE,0,1
+3A27F1D6-6B38-461C-ACAE-DCF4F171948C,A844427390246047,5.39,2013-05-26 02:27:53,21.0,unknown,Unknown,74.67,new york,us,False,Unknown,Unknown,Unknown,M,new york,,US,Unknown,P,,1,0,,US,2000,FALSE,0,1
+834A0619-7166-452A-9D31-1224EBB54505,A844427390246047,5.39,2013-05-26 02:29:48,21.0,unknown,Unknown,74.67,new york,us,False,Unknown,Unknown,Unknown,M,new york,,US,Unknown,P,,1,0,,US,2000,FALSE,0,1
+3319C4C1-94A7-45C7-AFC3-D1FD19FDEA8E,A844427390246047,5.39,2013-05-26 02:33:06,21.0,unknown,Unknown,74.67,new york,us,False,Unknown,Unknown,Unknown,M,new york,,US,Unknown,P,,1,0,,US,2000,FALSE,0,1
+B4FA5FE0-EBF4-48B9-BDD1-A1D85984E9ED,A844427390246047,5.39,2013-05-26 02:36:42,21.0,unknown,Unknown,74.67,new york,us,False,Unknown,Unknown,Unknown,M,new york,,US,Unknown,P,,1,0,,US,2000,FALSE,0,1
+5BCD2DBE-8524-4445-87E0-910F21C71046,A844427390246047,5.39,2013-05-26 02:37:13,21.0,unknown,Unknown,74.67,new york,us,False,Unknown,Unknown,Unknown,M,new york,,US,Unknown,P,,1,0,,US,2000,FALSE,0,1
+AA8F1576-451B-4B38-927D-2AB406CC8E8C,A844427390246047,5.39,2013-05-26 02:38:41,21.0,unknown,Unknown,74.67,new york,us,False,Unknown,Unknown,Unknown,M,new york,,US,Unknown,P,,1,0,,US,2000,FALSE,0,1
+3743BB47-3637-40B7-A462-2548CFB7C663,A844427390246047,5.39,2013-05-26 02:44:54,21.0,unknown,Unknown,74.67,new york,us,False,Unknown,Unknown,Unknown,M,new york,,US,Unknown,P,,1,0,,US,2000,FALSE,0,1
+A6B5B02E-3974-4BD3-9F9F-98FF549E114F,A844427390246047,5.39,2013-05-26 02:45:22,21.0,unknown,Unknown,74.67,new york,us,False,Unknown,Unknown,Unknown,M,new york,,US,Unknown,P,,1,0,,US,2000,FALSE,0,1
+A2709A9F-1697-4CB3-B0A2-8DDF7237D6FF,A844427390246047,5.39,2013-05-26 02:45:48,21.0,unknown,Unknown,74.67,new york,us,False,Unknown,Unknown,Unknown,M,new york,,US,Unknown,P,,1,0,,US,2000,FALSE,0,1
+46C30D4B-09B0-432A-AC46-DDD857CBD1FF,A844427390246047,5.39,2013-05-26 02:46:38,21.0,unknown,Unknown,74.67,new york,us,False,Unknown,Unknown,Unknown,M,new york,,US,Unknown,P,,1,0,,US,2000,FALSE,0,1
+9E498776-6998-4308-B28B-93AF92DE4924,A844427390246047,5.39,2013-05-26 02:47:07,21.0,unknown,Unknown,74.67,new york,us,False,Unknown,Unknown,Unknown,M,new york,,US,Unknown,P,,1,0,,US,2000,FALSE,0,1
+7833DDCC-84C1-4818-8D57-D635B858475C,A844427390246047,5.39,2013-05-26 11:06:57,6.0,unknown,Unknown,74.67,new york,us,False,Unknown,Unknown,Unknown,M,new york,,US,Unknown,P,,1,0,,US,2000,FALSE,0,1
+96AEA45B-C521-487A-890A-A5EFD5109973,A844427390246047,5.39,2013-05-28 12:55:17,7.0,unknown,Unknown,72.9,new york,us,False,Unknown,Unknown,Unknown,M,new york,,US,Unknown,P,,1,0,,US,2000,FALSE,0,1
+2B17E512-6E72-4890-87BD-3C122AA8604E,A844427390246047,5.39,2013-05-28 17:11:02,12.0,unknown,Unknown,72.9,new york,us,False,Unknown,Unknown,Unknown,M,new york,,US,Unknown,P,,1,0,,US,2000,FALSE,0,1
+976C63FB-B108-4C8E-B190-C37F1FF602B4,A985156290472668,5.34,2013-05-26 01:48:47,20.0,unknown,Unknown,74.129,kentucky,us,False,Unknown,Unknown,Unknown,M,kentucky,,US,Unknown,P,,1,0,,US,2000,FALSE,0,1
+F6E6F205-C915-4FBF-837A-38163126A25A,A985156290472668,5.34,2013-05-26 01:49:31,20.0,unknown,Unknown,74.129,kentucky,us,False,Unknown,Unknown,Unknown,M,kentucky,,US,Unknown,P,,1,0,,US,2000,FALSE,0,1
+630E3459-B5AA-4D4C-A2E4-31E4D86BDD5B,A985156290472668,5.34,2013-05-26 01:50:24,20.0,unknown,Unknown,74.129,kentucky,us,False,Unknown,Unknown,Unknown,M,kentucky,,US,Unknown,P,,1,0,,US,2000,FALSE,0,1
+3BBA55DF-FAE7-4F71-A7E9-2CE883BE50C2,A985156290472668,5.34,2013-05-27 14:50:10,8.0,unknown,Unknown,70.198,illinois,us,True,Unknown,Unknown,Unknown,M,illinois,,US,Unknown,P,,1,0,,US,2000,FALSE,0,0
+7CD9A9C3-3CE1-49B9-8299-039B7955F0F4,A985156290472668,5.34,2013-05-27 22:34:15,17.0,unknown,Unknown,74.129,kentucky,us,False,Unknown,Unknown,Unknown,M,kentucky,,US,Unknown,P,,1,0,,US,2000,FALSE,0,0
+8C92EAEE-3E47-4410-89C9-F95000EC0707,A985157015268058,4.99,2013-05-26 16:36:54,11.0,unknown,Unknown,24.254,virginia,us,False,Unknown,Unknown,Unknown,M,virginia,,US,Unknown,P,,1,0,,US,2,FALSE,0,1
+7CD47312-9A89-4118-A977-62919D932541,A985157015268058,4.99,2013-05-27 15:16:33,10.0,unknown,Unknown,24.254,virginia,us,False,Unknown,Unknown,Unknown,M,virginia,,US,Unknown,P,,1,0,,US,2,FALSE,0,1
+3FBDA277-FA1B-4355-856A-91A8D9CB828C,A985157015268058,4.99,2013-05-27 20:13:32,15.0,unknown,Unknown,24.254,virginia,us,False,Unknown,Unknown,Unknown,M,virginia,,US,Unknown,P,,1,0,,US,2,FALSE,0,1
+CEDBDEF3-E681-4CCF-81AC-8EA4433E3DB2,A985157015268058,4.99,2013-05-27 20:15:09,15.0,unknown,Unknown,24.254,virginia,us,False,Unknown,Unknown,Unknown,M,virginia,,US,Unknown,P,,1,0,,US,2,FALSE,0,1
