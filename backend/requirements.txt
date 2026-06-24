@@ -1,0 +1,13 @@
+pandas
+numpy
+scikit-learn
+langchain
+langgraph
+openai
+matplotlib
+seaborn
+fastapi
+uvicorn
+langchain-groq
+langgraph
+python-dotenv
